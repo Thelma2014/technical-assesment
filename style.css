@@ -1,0 +1,113 @@
+@charset "UTF-8";
+title {
+}
+
+body {
+    
+    font-family: sans-serif ;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a:link {
+	color: #900;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+h1 {
+	color:#05C;
+	font-weight: bold;
+	text-transform:capitalize;
+	}
+
+ .intro {
+ 	padding-left: 40px; 
+  	padding-top: 5px;
+    padding-bottom: 40px;          
+ 	background-color: #eee;           
+        }        
+        
+.results  {
+	background-color:#9C9;
+	font-weight: bold;
+	padding:10px;
+        } 
+		
+		    
+ li.first_question {
+    background-color: rgba(181, 210, 226, 0.62);
+	list-style-position: inside;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}       
+  
+  		    
+ li.second_question {
+    background-color:rgba(147, 197, 195, 0.62);
+	list-style-position: inside;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ li.third_question {
+    background-color:rgba(180, 189, 195, 0.62);
+	list-style-position: inside;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+        
+.myTable {
+	width: 400px;
+	background-color: #eee;
+	border-collapse: collapse;
+}
+
+
+
+
+
+.myTable th {
+	background-color: rgba(52, 178, 216, 0.62);
+	    text-align: center;
+	color: white;
+	width: 20%;
+}
+.myTable td {
+	width: 33%;
+}
+
+.myTable td, .myTable th {
+	padding: 5px;
+	border: 1px solid rgba(52, 178, 216, 0.62);
+}	
+.ForeCastTable {
+	width: 400px;
+	background-color: #eee;
+	border-collapse: collapse;
+}
+
+.ForeCastTable th {
+	background-color: rgba(52, 178, 216, 0.62);
+	    text-align: center;
+	color: white;
+	width: 20%;
+	table-layout: fixed;
+}
+
+.ForeCastTable td,.ForeCastTable th {
+	padding: 5px;
+	border:1px solid rgba(52, 178, 216, 0.62);
+}
